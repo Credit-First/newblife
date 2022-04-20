@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "CaterOne";
+    src: url("/fonts/Carter_One/CarterOne-Regular.ttf");
+}
+* {
+    font-family: "CaterOne";
+}
