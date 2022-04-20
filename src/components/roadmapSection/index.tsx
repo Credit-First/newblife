@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Image from 'next/image';
 
 function RoadmapSection() {
 
@@ -8,7 +9,7 @@ function RoadmapSection() {
                 <div className='header w-full flex justify-center items-center mb-14 aos-animate' data-aos="fade-up">
                     <div className='text-6xl text-white'>RoadMap</div>
                 </div>
-                <div className='timeline flex mx-24'>
+                <div className='timeline flex mx-24 w-4/5'>
                     <div className='timeline-left w-3/6'>
                         <div className='container-map relative text-white pt-8 pb-6'>
                             <div className='content ' data-aos="fade-up">

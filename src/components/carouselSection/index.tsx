@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Image from 'next/image';
 import AOS from "aos";
 import "aos/dist/aos.css";
 // Import Swiper React components
@@ -32,15 +33,15 @@ function CarouselSection() {
                     modules={[Autoplay, EffectCards]}
                     className="nft-swiper"
                 >
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/1.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/2.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/3.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/4.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/5.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/6.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/7.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/8.png' /></div></SwiperSlide>
-                    <SwiperSlide><div className='p-4 w-full h-full'><img className='rounded-2xl shadow-img w-full h-full' src='/images/slides/9.png' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/1.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/2.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/3.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/4.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/5.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/6.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/7.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/8.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
+                    <SwiperSlide><div className='p-4 w-full h-full'><Image className='rounded-2xl shadow-img w-full h-full' src='/images/slides/9.png' layout='fill' objectFit='fill' /></div></SwiperSlide>
                 </Swiper>
             </div>
         </>
